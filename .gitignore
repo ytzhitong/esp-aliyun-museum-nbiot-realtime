@@ -1,0 +1,14 @@
+# Config file
+.settings
+.project
+.cproject
+
+# IDF compile output
+examples/*/build/*
+examples/*/*/build/*
+smart_museum/build/*
+smart_museum/*/build/*
+
+# config
+sdkconfig
+sdkconfig.old
